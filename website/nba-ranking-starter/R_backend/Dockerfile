@@ -20,7 +20,7 @@ RUN R -e "options(repos='https://packagemanager.posit.co/cran/latest'); \
 
 WORKDIR /app
 # copy only backend context
-COPY website/nba-ranking-starter/R_backend/ /app/
+COPY . /app/
 
 ENV PORT=8000
 EXPOSE 8000
