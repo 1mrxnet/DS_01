@@ -24,4 +24,4 @@ COPY . /app/
 
 ENV PORT=8000
 EXPOSE 8000
-CCMD ["Rscript", "run_with_cors.R"]
+CMD ["Rscript", "run_with_cors.R"]
